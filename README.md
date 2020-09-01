@@ -3,6 +3,11 @@ An insanely simple canvas implementation for the full family to enjoy
 
 ![Animated Gif of Conways Game of Life](https://raw.githubusercontent.com/hisnameisjimmy/simple-game-of-life/master/conways.gif)
 
+## Install
+1) Clone the repo
+2) Run `npm install`
+3) Run `npm start`
+
 ## Rules
 1) If you have 2 or 3 neighbors, and you're already alive, you get to keep being alive
 2) If you are dead, and have 3 neighbors, you get to live
