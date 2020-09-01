@@ -99,10 +99,12 @@ html, body {
   bottom: 20px;
   left: 20px;
   display: flex;
-  background-color: #11223C;
+  background-color: #172E50;
   color: #fff;
   font-family: sans-serif;
   align-items: center;
+  border-radius: 7px;
+  padding: 5px;
 }
 
 .controls button {
@@ -112,10 +114,12 @@ html, body {
   padding: 10px 15px;
   border-radius: 5px;
   color: #4E6B97;
+  cursor: pointer;
 }
 
 .controls .iterations {
   opacity: .6;
+  padding: 0 10px 0 0;
 }
 
 /* ==========================================================================

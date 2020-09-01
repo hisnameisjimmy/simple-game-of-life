@@ -11,6 +11,7 @@ let state = {
 }
 
 const initialSeed = () => {
+  state.running = true;
   for (let i = 0; i < columns; i++) {
     pixels.push([]);
     for (let j = 0; j < rows; j++) {
@@ -97,6 +98,13 @@ stopStartButton.addEventListener("click", () => {
     stopStartButton.innerHTML = "Stop";
     createNextArray();
   }
+});
+
+const resetButton = document.getElementById("resetButton");
+resetButton.addEventListener("click", () => {
+  state.iteration = 0;
+  state.running = false;
+  initialSeed();
 });
 
 const draw = (array) => {
