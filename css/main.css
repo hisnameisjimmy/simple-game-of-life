@@ -87,7 +87,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-canvas { border: 1px solid black; }
+canvas { }
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.controls {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  background-color: #11223C;
+  color: #fff;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.controls button {
+  margin-right: 20px;
+  background:#061122;
+  border: 1px solid #2A4877;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #4E6B97;
+}
+
+.controls .iterations {
+  opacity: .6;
+}
 
 /* ==========================================================================
    Helper classes
